@@ -1,0 +1,239 @@
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/background.jpeg);
+  background-size: cover;
+  background-position: center center;
+}
+header nav {
+  width: 100%;
+}
+header nav a.navbar-brand {
+  font-family: "Lora", serif;
+  font-size: 25px;
+}
+header .main {
+  width: 800px;
+  border-radius: 30px;
+  background-color: rgba(164, 164, 164, 0.6);
+  margin-top: 150px;
+  padding: 50px;
+}
+header .main dl dt {
+  font-family: "Libre Caslon Display", serif;
+  font-size: 25px;
+}
+header .main dl dd {
+  font-size: 18px;
+}
+
+section.question {
+  width: 100%;
+  background-color: rgba(164, 164, 164, 0.1);
+}
+section.question h2 {
+  font-size: 30px;
+  font-family: "Libre Caslon Display", serif;
+  text-align: center;
+}
+section.question .bg-white {
+  width: 1000px;
+  min-height: 500px;
+  border-radius: 30px;
+}
+section.question .bg-white label {
+  font-size: 20px;
+  font-family: "El Messiri", sans-serif;
+}
+section.question .bg-white label.type {
+  font-family: "Open Sans", sans-serif;
+}
+section.question .bg-white .input-group {
+  width: 50px;
+}
+section.question .bg-white .btn {
+  background-color: black;
+  color: #ffff;
+  padding: 8px 45px;
+}
+section.question .bg-white .p {
+  width: 50px;
+}
+section.question .bg-white .secondsection,
+section.question .bg-white .thirdsection ,.secondSectionQ2 {
+  display: none;
+}
+.error{
+  display: none;
+  color: red;
+  text-align: center;
+}
+.target{
+  margin-left: 50px
+}
+.layer{
+  width: 120px;
+  margin: 10px 15px;
+}
+.layersInputs, 
+  .layersInput {
+	display: inline-table;
+	margin: 10px 20px;
+	border: 3px solid ghostwhite;
+	padding: 5px;
+  border-radius: 10px;
+  
+}
+.layersInput{
+  margin: 10px 5px;
+  width: 795px;
+}
+.layerTitle{
+  background: ghostwhite;
+  font-size: 1.3em;
+}
+.subTitle{
+  margin: 20px;
+}
+* {box-sizing: border-box}
+
+/* Slideshow container */
+.result,.result2{
+  position: relative;
+  /* background: #f1f1f1f1; */
+   display: none;
+
+    /* margin-top: 10%;
+    margin-left: 15%; */
+    padding-bottom: 7%;
+
+}
+
+/* Slides */
+.mySlides,.mySlides2 {
+  display: none;
+  text-align: center;
+  min-height: 290px;
+}
+.mySlides2{
+  display: block;
+}
+.mySlides{
+  margin: 50px;
+  width: 795px;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  /* margin-top: -30px; */
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  display: flex;
+  align-items: center;
+
+}
+.array{
+  margin-top: 1rem !important;
+  border: 2px solid black;
+  border-top: 0px;
+  border-bottom: 0px;
+  display: inline-block;
+}
+.outChar {
+	display: ruby-text;
+	/* margin: auto; */
+	font-size: 1.7em;
+}
+.resultSlider {
+	font-size: 1.5em;
+	color: #00bfff;
+}
+.wSpan {
+	margin: 0px 10px;
+	width: 50px;
+	height: 30px;
+	display: inline-block;
+	font-size: 1.4em;
+	text-align: center;
+}
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  /* margin-top: -40px; */
+  /* border-radius: 3px 0 0 3px; */
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:deepskyblue;
+  color: white;
+
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+    width: 100%;
+    position:absolute;
+    /* top: 270px; */
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* margin-top: 10%; */
+    /* margin-left: 15%; */
+     
+    
+}
+
+/* The dots/bullets/indicators */
+.dot,.dot2 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:focus {
+  background-color: deepskyblue;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+/* .author {color: cornflowerblue;} */
+.exit{
+  cursor: pointer;
+
+}
+.fa-times{
+  /* background-color: red; */
+  width: 30px;
+  /* text-align: center; */
+  padding: 10px;
+  font-size:1.2em;
+  /* color: #ffff; */
+}
+.fa-times:hover{
+  background-color: red;
+  width: 30px;
+  /* text-align: center; */
+  padding: 10px;
+
+  color: #ffff;
+}
+/*# sourceMappingURL=style.css.map */
